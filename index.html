@@ -1,1 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real Madrid FC</title>
+  <style>
+    /* CSS styles */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0; /* Set background color */
+      color: #333; /* Set text color */
+    }
+
+    header {
+      background-color: #fff; /* Set header background color */
+      padding: 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .logo img {
+      max-width: 100px; /* Adjust logo size as needed */
+    }
+
+    .nav-links {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav-links li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    .nav-links li:last-child {
+      margin-right: 0;
+    }
+
+    .theme-switch {
+      float: right;
+    }
+
+    .search-bar {
+      float: right;
+    }
+
+    .social-media {
+      float: right;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #333;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="real_madrid_logo.png" alt="Real Madrid FC Logo">
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Highlights</a></li>
+        <!-- Add more navigation links as needed -->
+      </ul>
+    </nav>
+    <div class="theme-switch">
+      <button id="theme-toggle">Switch Theme</button>
+    </div>
+    <div class="search-bar">
+      <input type="text" placeholder="Search...">
+    </div>
+    <div class="social-media">
+      <!-- Add social media icons here -->
+    </div>
+  </header>
+  <main>
+    <!-- Content goes here -->
+  </main>
+  <footer>
+    <div class="copyright">
+      &copy; 2024 Real Madrid FC. All rights reserved.
+    </div>
+  </footer>
+
+  <script>
+    // JavaScript code
+    const themeToggle = document.getElementById('theme-toggle');
+    themeToggle.addEventListener('click', () => {
+      document.body.classList.toggle('dark-theme');
+    });
+  </script>
+</body>
+</html>
 
